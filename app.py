@@ -13,6 +13,4 @@ def print_string(string):
         return "Too few characters. Please type more than 20 characters."
 
 eel.init('web')
-eel.start('index.html', size=(600, 400), options={
-    'port': 8080
-})
+eel.start('index.html', size=(600, 400), port=8080)
